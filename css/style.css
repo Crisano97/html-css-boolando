@@ -64,8 +64,6 @@ nav {
 
 .card {
     width: calc(100% / 3 - 10px);
-    /* background-color: bisque; */
-    /* border: 1px solid black; */
     margin-bottom: 40px;
 }
 
@@ -95,7 +93,7 @@ nav {
 .credit {
     padding: 5px;
     color: white;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .sale {
@@ -165,12 +163,12 @@ footer {
     display: block;
 }
 
-.path {
+.social-cap {
     color: white;
     font-size: 10px;
 }
 
-.priv {
+.info-priv {
     font-size: 10px;
 }
 
