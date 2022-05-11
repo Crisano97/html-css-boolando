@@ -46,6 +46,10 @@ nav {
     font-size: 15px;
 }
 
+.fa-brands {
+    padding: 3px;
+}
+
 /* main */
 
 .container {
@@ -59,7 +63,7 @@ nav {
 }
 
 .card {
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 10px);
     /* background-color: bisque; */
     /* border: 1px solid black; */
     margin-bottom: 40px;
@@ -136,6 +140,38 @@ nav {
 .o-price {
     font-size: 10px;
     text-decoration: line-through;
+}
+
+/* footer  */
+
+footer {
+    background-color: #0e0e0e;
+}
+
+.credits {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.info , .social {
+    color: white;
+    line-height: 25px;
+}
+
+.agency {
+    display: block;
+}
+
+.path {
+    color: white;
+    font-size: 10px;
+}
+
+.priv {
+    font-size: 10px;
 }
 
 
