@@ -16,6 +16,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .nav-bar {
@@ -44,6 +45,11 @@ nav {
 .icons {
     color: white;
     font-size: 15px;
+}
+
+.fa-regular , .fa-solid {
+    padding: 3px;
+    font-size: 12px;
 }
 
 .fa-brands {
